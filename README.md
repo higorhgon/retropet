@@ -29,7 +29,7 @@ Depois junte o `keys.json` daqui ao seu `~/.config/herdr-app/keys.json` (as chav
   - trabalhando: pula entre duas posições, como num V-pet;
   - parado: dorme (com um "z" no canto);
   - precisa de você: alterna com a pose de ataque;
-  - clique no Digimon: ele pula na pose do quadro 3 por 3 segundos.
+  - não clique no Digimon: ele detesta ser cutucado e passa 3 segundos pulando bravo (pose do quadro 3).
 - `Ctrl+Shift+D` troca o Digimon do agente em foco.
 - **Prefix estilo tmux:** `Ctrl+B` (ou `Ctrl+Space`) arma o prefix e a aba atual fica com contorno laranja; a tecla seguinte roda um comando de `mods/retropet-prefix/bindings.json` (`v`/`h` dividem, `c` nova aba, `b` recolhe a barra lateral, `f` Files, `Shift+G` Changes, `?` atalhos...).
 - Barra lateral, abas, molduras dos terminais, painéis Files/Changes e barra de status em pixel art, com fonte VGA.

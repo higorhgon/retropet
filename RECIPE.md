@@ -41,7 +41,7 @@ Theme `retropet` (layout-owned): terminal background `#1e1f2e`, foreground `#d4d
   - `idle`: the sleep frame, still;
   - `blocked`: idle and call frames swap every 500ms, bottom-aligned;
   - `done`: the idle frame, still.
-- **Click the Digimon**: for 3s it hops in its poke frame, then goes back to its state's pose. A click elsewhere on the card focuses the agent's pane; right-click pins or unpins it.
+- **Click the Digimon** (it hates being poked): for 3s it hops in its poke frame, cross, then goes back to its state's pose. A click elsewhere on the card focuses the agent's pane; right-click pins or unpins it.
 - **Size**: one sprite pixel is the entry's `px` if set (Koromon, Tsunomon 4.5; Terriermon, Lopmon 3.6), else 4px if any frame is wider or taller than 12 pixels, else 5px. The same in every frame.
 - **Prefix**: `Ctrl+B` / `Ctrl+Space` open `retropet-prefix`, an invisible 1×1 popup that sets shared `"prefix.armed"`; `retropet-tabs` then draws the active tab with a 2px `#f0a04b` outline and `#f0a04b1f` fill. The next key runs its action from `bindings.json` (same format as `keys.json`) and disarms; the prefix again sends it to the terminal (`hc keys`); Esc or an unknown key cancels. `b` runs `retropet-sidebar-fold` (rail ↔ last width), `f` and `Shift+G` toggle the Files and Changes panels.
 - Spaces, sub-agents, sorting, pinning and machine reconnects behave as in Herdr's own mods.
