@@ -1,0 +1,37 @@
+RetroPet
+Copyright 2026 higorhgon
+
+A layout for the Herdr desktop app (https://herdr.dev). Licensed under the
+Apache License 2.0 (see LICENSE), except for the third-party material below.
+
+Code
+- mods/retropet-spaces, retropet-agents, retropet-chrome, retropet-pane,
+  retropet-status, retropet-tabs, retropet-files and retropet-changes are
+  modified copies of mods shipped with the Herdr app (spaces, agents,
+  workspace-chrome, pane, workspace-status, tabs, files, changes;
+  https://github.com/herdrdev/herdr-app, Apache License 2.0).
+- retropet-spaces, retropet-agents (its list, headings and sort),
+  retropet-chrome, retropet-pane, retropet-status, the square tabs and the
+  card scene's sky and floor (mods/retropet-agents/scene.svg) come from
+  herdr-pixel-layout by murtuzaalisurti
+  (https://github.com/murtuzaalisurti/herdr-pixel-layout, Apache License 2.0).
+- The Digimon card (machine colors, status badge, pixel type) and the theme
+  (themes/retropet.json) come from herdr-retro by Marlon Azevedo
+  (https://github.com/MarlonAzevedo/herdr-retro, Apache License 2.0).
+
+Sprites
+- mods/retropet-agents/digimon.js holds pixel sprites taken from the dmall,
+  dmc and dm20 sets of wayland-vpets by Saatvik Sharma and contributors
+  (https://github.com/furudbat/wayland-vpets, MIT License). Patamon and
+  Gabumon were recolored for this layout.
+- Digimon and all related characters and images are owned by Bandai Co.,
+  Ltd., Akiyoshi Hongo and Toei Animation Co., Ltd. This project is free,
+  non-commercial and not associated with them.
+
+Fonts
+- mods/retropet-agents/fonts/PxPlus_IBM_VGA_8x16.ttf: "The Ultimate Oldschool
+  PC Font Pack" by VileR (https://int10h.org), CC BY-SA 4.0
+  (see mods/retropet-agents/fonts/LICENSE-PxPlus.txt).
+- mods/retropet-spaces/fonts/PixelatedMSSansSerif-*.ttf: by lou, built with
+  FontStruct, CC BY-SA 3.0
+  (see mods/retropet-spaces/fonts/LICENSE-MSSansSerif.txt).

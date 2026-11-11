@@ -1,0 +1,11 @@
+{
+  "global": {
+    "ctrl-b": "mod.open:retropet-prefix",
+    "ctrl-space": "mod.open:retropet-prefix",
+    "ctrl-shift-d": "mod.open:retropet-digimon"
+  },
+  "mod:retropet-prefix": {
+    "ctrl-b": "retropet-prefix.send:ctrl+b",
+    "ctrl-space": "retropet-prefix.send:ctrl+space"
+  }
+}
