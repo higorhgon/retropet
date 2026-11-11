@@ -6,6 +6,8 @@ Layout para o [Herdr](https://herdr.dev) desktop: barra lateral, abas e molduras
 
 ![RetroPet](preview.png)
 
+![Os Digimons](preview-pets.png)
+
 ## Instalar
 
 ```sh
